@@ -8,10 +8,6 @@ This project fetches the Bitcoin price from the internet using ESP32_DevKitc_V4 
 - **ESP32 DevKitC V4**
 - **2.9 inch e-Paper Module Waveshare**
 
-## Connection Pins
-
-ESP32 ve e-Paper modülü arasındaki bağlantılar aşağıdaki gibidir:
-
 ## Libraries Used
 
 - **WiFi.h**: Allows the ESP32 to connect to WiFi.
@@ -33,7 +29,9 @@ ESP32 ve e-Paper modülü arasındaki bağlantılar aşağıdaki gibidir:
    const char* password = "YOUR_PASSWORD";
    const char* api_url = "https://api.coindesk.com/v1/bpi/currentprice/BTC.json";
 
+ ## Connection Pins
 
+ESP32 ve e-Paper connection as follows:  
 ```cpp
 #define EPD_SCK_PIN  13 // DIN
 #define EPD_MOSI_PIN 14 // CLK
