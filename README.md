@@ -2,6 +2,7 @@
 
 This project fetches the Bitcoin price from the internet using ESP32_DevKitc_V4 and displays it on a 2.9 inch e-Paper screen.
 
+![Bitcoin Price Display](IMG_1895.jpg)
 ## Used Hardware
 
 - **ESP32 DevKitC V4**
@@ -32,7 +33,7 @@ ESP32 ve e-Paper modülü arasındaki bağlantılar aşağıdaki gibidir:
    const char* password = "YOUR_PASSWORD";
    const char* api_url = "https://api.coindesk.com/v1/bpi/currentprice/BTC.json";
 
-   
+
 ```cpp
 #define EPD_SCK_PIN  13 // DIN
 #define EPD_MOSI_PIN 14 // CLK
